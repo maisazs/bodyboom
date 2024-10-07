@@ -183,3 +183,58 @@ header {
   width: 320px;
   height: 400px;
 }
+
+/*----------------------------------------------------------------------------------------*/
+
+#sec2 {
+  display: flex;
+  position: relative;
+  z-index: 99;
+  margin: auto;
+  margin-top: 80px;
+  background-color: var(--light);
+  width: 1150px;
+  height: 190px;
+  border-radius: 30px;
+}
+
+#folhasec2 {
+  position: relative;
+  margin-top: -130px;
+  margin-left: -120px;
+}
+
+#sec2-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 900px;
+  font-family: var(--inter);
+  font-weight: bold;
+  font-size: 23px;
+  color: var(--second-primary);
+  margin-left: 20px;
+}
+
+#sec2-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 260px;
+}
+
+#cartao {
+  width: 100px;
+}
+#pix {
+  width: 100px;
+}
+
+#caminhao {
+  width: 55px;
+}
+
+#txtverde {
+  color: var(--primary);
+}

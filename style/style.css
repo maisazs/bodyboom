@@ -145,30 +145,41 @@ header {
 }
 
 #header-left-2 div img {
-  width: 20px;
+  width: 25px;
+}
+
+#potes {
+  display: flex;
+  height: 544px;
 }
 
 #notificacao1 {
+  width: 350px;
   position: relative;
-  width: 370px;
-  margin-top: 340px;
+  z-index: 99;
+  margin-top: 270px;
 }
 
-#pote1 {
+#notificacao2 {
+  width: 300px;
   position: relative;
+  margin-left: -300px;
+  margin-top: -130px;
+}
+
+#poterosa {
+  position: relative;
+  margin-left: -450px;
+  z-index: 1;
   width: 600px;
-  margin-top: -400px;
-  margin-left: -100px;
+  height: 800px;
 }
 
-#pote2 {
+#potepreto {
   position: relative;
-  width: 400px;
-  margin-top: -900px;
-  margin-left: 300px;
-}
-
-#notificacao2{
-  position: relative;
-  width: 370px;
+  margin-left: -120px;
+  margin-top: 150px;
+  z-index: 3;
+  width: 320px;
+  height: 400px;
 }

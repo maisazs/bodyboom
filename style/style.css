@@ -128,24 +128,34 @@ header {
 
 #header-left-2 {
   display: flex;
-  max-width: 300px;
+  width: 300px;
   flex-direction: row;
+  gap: 10px;
+
   color: var(--light);
   font-family: var(--inter);
   font-size: 12px;
   line-height: 16px;
-  margin-right: 40px;
+  margin-left: -50px;
 }
 
 #header-left-2 div{
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
-#header-left-2 div img {
-  width: 25px;
+#checkout {
+  width: 28px;
+}
+
+#taca {
+  width: 33px;
+}
+
+#cadeado {
+  width: 26px;
 }
 
 #potes {
@@ -182,6 +192,71 @@ header {
   z-index: 3;
   width: 320px;
   height: 400px;
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 750px){
+  #header-container {
+    flex-direction: column;
+    margin-top: 0;
+    max-width: 400px;
+  }
+
+  #header-left {
+    margin-top: -50px;
+    margin-inline: 10px;
+  }
+
+  #header-left-1 {
+    align-items: center;
+  }
+  
+  #header-left-1 h1 {
+    text-align: center;
+  }
+  
+  #header-left-2 {
+    margin-right: -50px;
+  }
+  
+  #potes {
+    margin: auto;
+    height: 300px;
+    margin-top: 50px;
+  }
+  
+  #notificacao1 {
+    width: 200px;
+    margin-top: 50px;
+  }
+  
+  #notificacao2 {
+    width: 200px;
+    margin-left: -200px;
+    margin-top: -170px;
+  }
+  
+  #poterosa {
+    margin-left: -250px;
+    width: 300px;
+    height: 400px;
+  }
+  
+  #potepreto {
+    margin-left: -80px;
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+  }
+
+  #img-bg {
+    display: none;
+  }
+  
+  #img-bg-2 {
+    display: none;
+  }
 }
 
 /*----------------------------------------------------------------------------------------*/
@@ -237,4 +312,28 @@ header {
 
 #txtverde {
   color: var(--primary);
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 750px){
+  #sec2 {
+    margin-top: 120px;
+    width: 380px;
+    height: 300px;
+  }
+  
+  #folhasec2 {
+    margin-top: -250px;
+    margin-left: -50px;
+    width: 100px;
+  }
+  
+  #sec2-container {
+    justify-content: space-around;
+    width: 300px;
+    align-items: flex-start;
+    margin-left: 10px;
+    flex-direction: column;
+  }
 }

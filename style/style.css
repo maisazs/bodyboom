@@ -619,7 +619,7 @@ header {
   height: 800px;
   border: 1px solid var(--light);
   border-radius: 10px;
-  background-color: rgba(255, 157, 169, 0.54);
+  background-color: rgba(165, 171, 19, 0.45);
   color: var(--light);
   font-weight: 300;
   z-index: 99;
@@ -656,61 +656,63 @@ header {
 /*----------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 750px){
-  #sec3 {
+  #sec4 {
     margin-top: 100px;
     margin-inline: 10px;
-    height: 1600px;
+    height: 1800px;
   }
   
-  #mol1 {
+  #folha1sec4 {
     width: 200px;
-    margin-left: 0px;
+    margin-left: 200px;
   }
   
-  #sec3container {
-    margin-top: 50px;
+  #sec4container {
+    margin-top: 0px;
     width: 400px;
   }
   
-  #sec3mid {
+  #sec4mid {
     width: 350px;
     margin-left: 0px;
     flex-direction: column;
   }
   
-  #sec3mid1 {
+  #sec4mid1 {
     width: 350px;
+    margin-top: -1580px;
   }
   
-  #potesec3 {
-    margin-left: -110px;
+  #potesec4 {
+    margin-left: 80px;
     width: 350px;
     margin-top: 50px;
   }
   
-  #sec3mid2 {
-    height: 700px;
+  #sec4mid2 {
+    height: 940px;
     width: 350px;
     margin-bottom: 20px;
+    margin-top: 550px;
   }
   
-  #sec3mid2 div {
-    height: 660px;
+  #sec4mid2 div {
+    height: 900px;
     width: 350px;
   }
   
-  #sec3mid2 p {
+  #sec4mid2 p {
     width: 300px;
   }
   
-  #fundosec3 {
+  #fundosec4 {
     width: 350px;
-    margin-top: -1300px;
+    margin-top: -520px;
   }
   
-  #mol2 {
+  #folha2sec4 {
     width: 200px;
-    margin-left: 150px;
-    margin-top: 1000px;
+    margin-left: 0px;
+    margin-top: 1200px;
   }
 }

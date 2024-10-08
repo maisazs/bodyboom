@@ -525,3 +525,192 @@ header {
     margin-top: 1000px;
   }
 }
+
+/*------------------------------------------------------------------------------------------*/
+
+#sec4 {
+  position: relative;
+  z-index: 5;
+  margin-top: 10px;
+  background-color: var(--greenbtn2);
+  border-radius: 80px;
+  height: 921px;
+  overflow: hidden;
+}
+
+#folha1sec4 {
+  width: 450px;
+  margin-left: 1400px;
+}
+
+#sec4container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1150px;
+  margin: auto;
+  margin-top: -300px;
+}
+
+#sec4mid {
+  display: flex;
+  align-items: flex-end;
+  width: 800px;
+  gap: 0px;
+  font-family: var(--inter);
+  z-index: 99;
+  margin-left: -37%;
+}
+
+#sec4mid1 {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  color: var(--dark);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+#sec4mid1 h2 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#sec4mid1 h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#sec4mid1 p {
+  font-size: 13px;
+  font-weight: 300;
+  width: 250px;
+}
+
+#clique {
+  width: 30px;
+}
+
+#sec4mid1 button{
+  color: var(--dark);
+  background: linear-gradient(90deg, #F0F568, #D0D904);
+  box-shadow: 5px 5px 30px -13px var(--grey);
+}
+
+#sec4mid1 button:hover{
+  color: var(--greenbtn2);
+  background: var(--light);
+  box-shadow: 0px 0px 15px 2px var(--light);
+}
+
+#potesec4 {
+  position: relative;
+  margin-left: 150px;
+  width: 650px;
+  margin-top: 50px;
+}
+
+#sec4mid2 {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  border: 1px solid var(--light);
+  border-radius: 10px;
+  background-color: rgba(255, 157, 169, 0.54);
+  color: var(--light);
+  font-weight: 300;
+  z-index: 99;
+  margin-bottom: 20px;
+}
+
+#sec4mid2 div {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 800px;
+  width: 350px;
+}
+
+#sec4mid2 p {
+  width: 340px;
+}
+
+#fundosec4 {
+  width: 1150px;
+  margin-top: -786px;
+  z-index: 0;
+}
+
+#folha2sec4 {
+  width: 300px;
+  margin-left: 0;
+  margin-top: -331px;
+  position: absolute;
+  z-index: 99;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 750px){
+  #sec3 {
+    margin-top: 100px;
+    margin-inline: 10px;
+    height: 1600px;
+  }
+  
+  #mol1 {
+    width: 200px;
+    margin-left: 0px;
+  }
+  
+  #sec3container {
+    margin-top: 50px;
+    width: 400px;
+  }
+  
+  #sec3mid {
+    width: 350px;
+    margin-left: 0px;
+    flex-direction: column;
+  }
+  
+  #sec3mid1 {
+    width: 350px;
+  }
+  
+  #potesec3 {
+    margin-left: -110px;
+    width: 350px;
+    margin-top: 50px;
+  }
+  
+  #sec3mid2 {
+    height: 700px;
+    width: 350px;
+    margin-bottom: 20px;
+  }
+  
+  #sec3mid2 div {
+    height: 660px;
+    width: 350px;
+  }
+  
+  #sec3mid2 p {
+    width: 300px;
+  }
+  
+  #fundosec3 {
+    width: 350px;
+    margin-top: -1300px;
+  }
+  
+  #mol2 {
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 1000px;
+  }
+}

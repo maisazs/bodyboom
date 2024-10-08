@@ -724,9 +724,11 @@ header {
   flex-direction: row;
   justify-content: flex-end;
   margin-left: auto;
-  width: 1500px;
+  width: auto;
   align-items: center;
   height: 400px;
+  gap: 160px;
+  overflow: hidden;
 }
 
 #sec5-1 {
@@ -772,8 +774,35 @@ header {
   color: var(--second-primary);
 }
 
-#sec5-2 .srq {
-  height: 100px;
-  width: 300px;
+/*carrossel - sec5*/
+
+/* Container do carrossel */
+#sec5-2 {
+  width: 1000px;
+  overflow-x: auto; /* Ativa a rolagem horizontal */
+  scroll-snap-type: x mandatory; /* Ativa o scroll snap horizontal */
+  -webkit-overflow-scrolling: touch; /* Suaviza o scroll no iOS */
+  margin-top: 100px;
+}
+
+/* Linha do carrossel */
+#carrossel {
+  display: flex;
+  gap: 20px;
+  width: 1500px; /* Largura suficiente para caber todos os itens */
+}
+
+/* Itens do carrossel */
+.sqr {
+  height: 230px;
+  width: 350px; /* Defina a largura dos itens do carrossel */
   background-color: #4B4B4B;
+  display: block;
+  border-radius: 10px;
+  scroll-snap-align: start; /* Alinha cada item no início do contêiner ao rolar */
+}
+
+/* Remove a barra de rolagem (opcional) */
+#sec5-2::-webkit-scrollbar {
+  display: none;
 }

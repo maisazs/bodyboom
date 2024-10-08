@@ -76,7 +76,7 @@ header {
   margin: auto;
   gap: 50px;
   z-index: 99;
-  margin-top: -800px;
+  margin-top: -42%;
 }
 
 #header-left {
@@ -462,4 +462,66 @@ header {
   margin-top: -580px;
   position: absolute;
   z-index: 99;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 750px){
+  #sec3 {
+    margin-top: 100px;
+    margin-inline: 10px;
+    height: 1600px;
+  }
+  
+  #mol1 {
+    width: 200px;
+    margin-left: 0px;
+  }
+  
+  #sec3container {
+    margin-top: 50px;
+    width: 400px;
+  }
+  
+  #sec3mid {
+    width: 350px;
+    margin-left: 0px;
+    flex-direction: column;
+  }
+  
+  #sec3mid1 {
+    width: 350px;
+  }
+  
+  #potesec3 {
+    margin-left: -110px;
+    width: 350px;
+    margin-top: 50px;
+  }
+  
+  #sec3mid2 {
+    height: 700px;
+    width: 350px;
+    margin-bottom: 20px;
+  }
+  
+  #sec3mid2 div {
+    height: 660px;
+    width: 350px;
+  }
+  
+  #sec3mid2 p {
+    width: 300px;
+  }
+  
+  #fundosec3 {
+    width: 350px;
+    margin-top: -1300px;
+  }
+  
+  #mol2 {
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 1000px;
+  }
 }

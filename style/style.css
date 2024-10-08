@@ -337,3 +337,129 @@ header {
     flex-direction: column;
   }
 }
+
+/*------------------------------------------------------------------------------------------*/
+
+#sec3 {
+  position: relative;
+  z-index: 5;
+  margin-top: -60px;
+  background-color: var(--second-primary);
+  border-radius: 80px;
+  height: 854px;
+  overflow: hidden;
+}
+
+#mol1 {
+  width: 350px;
+  margin-left: 230px;
+}
+
+#sec3container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1150px;
+  margin: auto;
+}
+
+#sec3mid {
+  display: flex;
+  align-items: flex-end;
+  width: 800px;
+  gap: 30px;
+  font-family: var(--inter);
+  z-index: 99;
+  margin-left: 36%;
+}
+
+#sec3mid1 {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  color: var(--light);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+#sec3mid1 h2 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#sec3mid1 h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#sec3mid1 p {
+  font-size: 13px;
+  font-weight: 300;
+  width: 250px;
+}
+
+#clique {
+  width: 30px;
+}
+
+#sec3mid1 button{
+  color: var(--light);
+  background: linear-gradient(90deg, #F17C89, #A54954);
+  box-shadow: 5px 5px 30px -13px var(--grey);
+}
+
+#sec3mid1 button:hover{
+  color: var(--second-primary);
+  background: var(--light);
+  box-shadow: 0px 0px 15px 2px var(--light);
+}
+
+#potesec3 {
+  position: relative;
+  margin-left: -160px;
+  width: 500px;
+  margin-top: 50px;
+}
+
+#sec3mid2 {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  border: 1px solid var(--light);
+  border-radius: 10px;
+  background-color: rgba(255, 157, 169, 0.54);
+  color: var(--light);
+  font-weight: 300;
+  z-index: 99;
+  margin-bottom: 20px;
+}
+
+#sec3mid2 div {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 600px;
+  width: 350px;
+}
+
+#sec3mid2 p {
+  width: 340px;
+}
+
+#fundosec3 {
+  width: 1150px;
+  margin-top: -620px;
+  z-index: 0;
+}
+
+#mol2 {
+  width: 400px;
+  margin-left: 73%;
+  margin-top: -580px;
+  position: absolute;
+  z-index: 99;
+}

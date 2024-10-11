@@ -877,6 +877,7 @@ header {
   row-gap: 60px;
   column-gap: 40px;
   margin-top: 50px;
+  text-align: center;
 }
 
 .sec6-quadro {
@@ -924,7 +925,6 @@ header {
   font-size: 18px;
   font-weight: 400;
   width: 180px;
-  text-align: center;
   margin-top: -6px;
   color: #313131;
 }
@@ -979,12 +979,15 @@ header {
 
 .sec6-quadro div .frete {
   color: var(--light);
-  padding: 5px 40px;
   font-size: 16px;
   font-weight: 700;
   background-color: var(--second-primary);
   border-radius: 7px;
-  text-align: center;
+  width: 220px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*QUADROS VERDES*/
@@ -1044,6 +1047,12 @@ header {
 .sec6-q-rosa div .frete {
   color: var(--dark);
   background-color: var(--primary);
+}
+
+/*quadros sem desconto*/
+
+.sec6-semdesc div img {
+  height: 120px;
 }
 
 /*fundo*/

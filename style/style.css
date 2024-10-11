@@ -795,7 +795,7 @@ header {
 /* Itens do carrossel */
 .sqr {
   height: 230px;
-  width: 370px; /* Defina a largura dos itens do carrossel */
+  width: 350px; /* Defina a largura dos itens do carrossel */
   background-color: #4B4B4B;
   display: block;
   border-radius: 10px;
@@ -970,6 +970,7 @@ header {
   background: linear-gradient(90deg, #F0F568, #D0D904);
   box-shadow: 5px 5px 30px -13px var(--grey);
   margin-top: -10px;
+  color: var(--dark);
 }
 
 .sec6-quadro div button:hover{
@@ -1089,4 +1090,41 @@ header {
   height: 2033px;
   background: var(--light);
   margin-top: -1870px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 750px){
+  #sec6 {
+    margin-top: 0px;
+  }
+
+  #sec6-1 {
+    width: 400px;
+  }
+
+  #sec6-1 h4 {
+    width: 350px;
+  }
+
+  #sec6-2 {
+    flex-direction: column;
+    width: 400px;
+  }
+
+  .sec6-quadro {
+    scale: 90%;
+    margin-top: -50px;
+  }
+
+  .sec6-quadro:hover {
+    scale: 90%;
+  }
+
+  #sec6-fundo {
+    width: 100%;
+    height: 3843px;
+    background: var(--light);
+    margin-top: -3750px;
+  }
 }

@@ -6,6 +6,7 @@
   pad: 0;
   box-sizing: border-box;
   outline: 0;
+  list-style-type: none;
 }
 
 .span-pink {
@@ -878,6 +879,8 @@ header {
   column-gap: 40px;
   margin-top: 50px;
   text-align: center;
+  position: relative;
+  z-index: 98;
 }
 
 .sec6-quadro {
@@ -1090,6 +1093,9 @@ header {
   height: 2033px;
   background: var(--light);
   margin-top: -1870px;
+  border-radius: 0px 0px 60px 60px;
+  position: relative;
+  z-index: 2;
 }
 
 /*----------------------------------------------------------------------------------------------*/
@@ -1128,3 +1134,92 @@ header {
     margin-top: -3750px;
   }
 }
+
+/*-----------------------------------------------------------------------------------------------*/
+
+#sec7-beneficios div {
+  background: linear-gradient(to left, var(--primary), var(--second-primary));
+  width: 900px; 
+  height: 260px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+  color: var(--light);
+  font-family: var(--inter);
+  margin: auto;
+  position: relative;
+  z-index: 99;
+  margin-top: -80px;
+}
+
+#sec7-beneficios div h2 {
+  font-size: 30px;
+}
+
+#sec7-beneficios div #p-1 {
+  width: 452px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#sec7-beneficios div #p-anvisa {
+  font-size: 19px;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+#sec8 {
+  background: linear-gradient(to right, var(--primary) 50%, var(--second-primary) 50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--light);
+  font-family: var(--inter);
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+#sec8-prod {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#sec8-fitboom {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sec8-belle {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sec8 h2 {
+  font-size: 100px;
+  width: 500px;
+  font-weight: 800;
+  line-height: 80%;
+}
+
+#sec8 p {
+  font-size: 18px;
+  font-weight: 200;
+  width: 345px;
+}
+
+#sec8 p strong {
+  font-weight: 500;
+}
+

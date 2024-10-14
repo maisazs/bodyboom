@@ -9,6 +9,11 @@
   list-style-type: none;
 }
 
+ul {
+  padding-left: 0;  /* Remove o padding */
+  margin-left: 0;   /* Remove a margem */
+}
+
 .span-pink {
   color: var(--second-primary);
 }
@@ -1172,6 +1177,18 @@ header {
 
 /*------------------------------------------------------------------------------------------------*/
 
+@media screen and (max-width: 750px){
+  #sec7-beneficios div {
+    width: 350px;
+    margin-top: -60px;
+  }
+  
+  #sec7-beneficios div #p-1 {
+    width: 300px;
+  }
+}
+
+/*------------------------------------------------------------------------------------------------*/
 #sec8 {
   background: linear-gradient(to right, var(--primary) 50%, var(--second-primary) 50%);
   display: flex;
@@ -1183,34 +1200,42 @@ header {
   position: relative;
   z-index: 1;
   text-align: center;
+  margin-top: -241px;
 }
 
-#sec8-prod {
+#sec8-prod #divsec8{
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  margin-top: -200px;
 }
 
 #sec8-fitboom {
-  width: 800px;
+  width: 550px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
 
 #sec8-belle {
-  width: 800px;
+  width: 550px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 20px;
 }
 
 #sec8 h2 {
   font-size: 100px;
   width: 500px;
+  height: 160px;
   font-weight: 800;
   line-height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #sec8 p {
@@ -1223,3 +1248,132 @@ header {
   font-weight: 500;
 }
 
+#sec8 li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#sec8 li ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 120px;
+  background-color: #F98794;
+  border-radius: 8px;
+  padding: 20px;
+  font-weight: 300;
+  transition: 0.5s;
+}
+
+#sec8 li ul:hover {
+  scale: 103%;
+  background-color: #f3909b;
+}
+
+#sec8 #ul-verde ul{
+  background-color: #B3BA12;
+}
+
+#sec8 #ul-verde ul:hover {
+  background-color: #bac22e;
+}
+
+#sec8 button{
+  color: var(--dark);
+  background: linear-gradient(90deg, #F0F568, #D0D904);
+  box-shadow: 5px 5px 30px -13px var(--grey);
+}
+
+#sec8 button:hover{
+  color: var(--greenbtn2);
+  background: var(--light);
+  box-shadow: 0px 0px 15px 2px var(--light);
+}
+
+#sec8 #sec8-btn-rosa{
+  color: var(--light);
+  background: linear-gradient(90deg, #F17C89, #A54954);
+  box-shadow: 5px 5px 30px -13px var(--grey);
+}
+
+#sec8 #sec8-btn-rosa:hover{
+  color: var(--second-primary);
+  background: var(--light);
+  box-shadow: 0px 0px 15px 2px var(--light);
+}
+
+#sec8-folha1 {
+  margin-right: 1233px;
+  width: 330px;
+  position: relative;
+}
+
+#sec8-folha2 {
+  width: 250px;
+  margin-top: -80px;
+  margin-right: 220px;
+}
+
+#sec8-mol {
+  width: 250px;
+  margin-left: 200%;
+  margin-top: -860px;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 750px){
+  #sec8 {
+    margin-top: -260px;
+    padding-bottom: 20px;
+  }
+
+  #sec8-prod #divsec8 {
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #sec8-fitboom {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  #sec8-belle {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  #sec8 h2 {
+    font-size: 80px;
+    width: 400px;
+    height: 160px;
+    font-weight: 800;
+    line-height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #sec8-folha1 {
+    display: none;
+  }
+  
+  #sec8-folha2 {
+    display: none;
+  }
+  
+  #sec8-mol {
+    display: none;
+  }
+}

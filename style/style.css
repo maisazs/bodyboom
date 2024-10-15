@@ -1328,7 +1328,7 @@ header {
 @media screen and (max-width: 750px){
   #sec8 {
     margin-top: -260px;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
   }
 
   #sec8-prod #divsec8 {
@@ -1376,4 +1376,88 @@ header {
   #sec8-mol {
     display: none;
   }
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+#sec9 {
+  background: #F2F2F2;
+  font-family: var(--inter);
+}
+
+#div-certificado {
+  position: relative;
+  border-radius: 50%;
+  background: rgba(53, 53, 53, 0.14);
+  width: 140px;
+  height: 140px;
+  border: 1px #B7B7B7 solid;
+  margin-left: 70%;
+  margin-top: -30px;
+  z-index: 99;
+  backdrop-filter: blur(15px);
+}
+
+#certificado {
+  width: 140px;
+  height: 140px;
+  padding: 15px;
+}
+
+#sec9 #sec9-div {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 90px 0px;
+  margin-top: -90px;
+}
+
+#sec9 #sec9-div img {
+  width: 300px;
+}
+
+#sec9 #sec9-div  div {
+  height: 180px;
+  width: 534px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#sec9 #sec9-div  div h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 750px){
+  #div-certificado {
+    margin-left: 0;
+    margin: auto;
+    margin-top: -40px;
+    scale: 90%;
+  }
+  
+  #sec9 #sec9-div {
+    width: 400px;
+    flex-direction: column;
+    margin-top: 0px;
+    padding: 50px 0px;
+    gap: 20px;
+  }
+  
+  #sec9 #sec9-div img {
+    width: 200px;
+
+  }
+  
+  #sec9 #sec9-div  div {
+    height: 300px;
+    width: 300px;
+    padding: 20px 0px;
+  }
+
 }

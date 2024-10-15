@@ -1602,4 +1602,16 @@ header {
 }
 
 /*------------------------------------------------------------------------------------------------*/
+/*footer*/
 
+footer {
+  background-color: #1A1A1A;
+  color: var(--light);
+}
+
+#linha-footer {
+  height: 1px;
+  width: 100vw;
+  background: linear-gradient(to right, var(--dark), var(--primary), var(--dark));
+  border-radius: 50%;
+}

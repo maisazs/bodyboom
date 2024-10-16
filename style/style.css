@@ -1732,10 +1732,6 @@ footer {
   width: 100px;
 }
 
-#boleto-footer {
-  margin-right: -90px;
-}
-
 #footer-cont22 {
   display: flex;
   flex-direction: row;
@@ -1798,10 +1794,6 @@ footer {
   
   #footer-cont21 img {
     width: 50px;
-  }
-  
-  #boleto-footer {
-    margin-right: -50px;
   }
   
   #footer-cont22 {

@@ -1,3 +1,5 @@
+//Caixa sessão 11
+
 function expande(event) {
     // Pega o botão que foi clicado
     const button = event.currentTarget;
@@ -21,3 +23,8 @@ function expande(event) {
   document.querySelectorAll('#sec11 button').forEach(button => {
     button.addEventListener('click', expande);
   });
+
+//---------------------------------------------------------------------------------------------
+// biblioteca AOS
+
+AOS.init();

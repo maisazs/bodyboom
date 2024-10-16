@@ -130,6 +130,7 @@ header {
 #header-left-1 button {
   background: linear-gradient(38deg, var(--greenbtn2), var(--greenbtn));
   color: var(--bg);
+  transition: .5s;
 }
 
 #header-left-1 button:hover {
@@ -1568,7 +1569,7 @@ header {
   align-items: flex-start;
   width: 49%;
   background-color: #F2F2F2;
-  padding: 25px;
+  padding:25px;
   border-radius: 10px;
   transition: .3s;
 }
